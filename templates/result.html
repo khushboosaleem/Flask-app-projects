@@ -1,0 +1,13 @@
+<!-- Start of HTML code -->
+<html>
+    <!-- Check if the value of 'results' is greater than or equal to 50 -->
+    {% if results >= 50 %}
+        <!-- If 'results' is greater than or equal to 50, display a heading indicating that the result is pass -->
+        <h1>The result is pass and the average marks is {{ results }}</h1>
+    <!-- If 'results' is less than 50 -->
+    {% else %}
+        <!-- Display a heading indicating that the result is fail -->
+        <h1>The result is fail and the average marks is {{ results }}</h1>
+    {% endif %}
+</html>
+<!-- End of HTML code -->
